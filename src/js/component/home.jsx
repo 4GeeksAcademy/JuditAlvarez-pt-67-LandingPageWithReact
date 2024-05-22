@@ -20,16 +20,16 @@ const Home = () => {
 
         <div className="container">
           <div className="row d-flex text-center justify-content-center">
-            <div className="col-sm.12 col-md-3 mb-3">
+            <div className="col-sm.12 col-md-2  m-5">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-3">
+            <div className="col-sm-12 col-md-2 m-5">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-3">
+            <div className="col-sm-12 col-md-2 m-5">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-3 ">
+            <div className="col-sm-12 col-md-2 m-5">
               <Card />
             </div>
           </div>
