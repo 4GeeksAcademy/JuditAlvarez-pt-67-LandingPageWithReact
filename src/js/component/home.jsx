@@ -18,18 +18,21 @@ const Home = () => {
           <Jumbotron />
         </div>
 
+
+
+
         <div className="container">
-          <div className="row d-flex text-center justify-content-center">
-            <div className="col-sm.12 col-md-2  m-5">
+          <div className="row d-flex text-center justify-content-center grid gap-">
+            <div className="g-col-sm.12 col-md-3 mt-5 ">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-2 m-5">
+            <div className="g-col-sm-12 col-md-3 mt-5 ">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-2 m-5">
+            <div className="g-col-sm-12 col-md-3 mt-5">
               <Card />
             </div>
-            <div className="col-sm-12 col-md-2 m-5">
+            <div className="g-col-sm-12 col-md-3 mt-5">
               <Card />
             </div>
           </div>
