@@ -9,7 +9,7 @@ import Footer from "./footer";
 //create your first component
 const Home = () => {
   return (
-    <div classNameName=" container-fluid text-center">
+    <div className="card container-fluid text-center">
       <div className="bg-dark ">
         <Navbar />
       </div>
@@ -18,27 +18,27 @@ const Home = () => {
           <Jumbotron />
         </div>
 
-
-
-
         <div className="container">
-          <div className="row d-flex text-center justify-content-center grid gap-">
-            <div className="g-col-sm.12 col-md-3 mt-5 ">
-              <Card />
-            </div>
-            <div className="g-col-sm-12 col-md-3 mt-5 ">
-              <Card />
-            </div>
-            <div className="g-col-sm-12 col-md-3 mt-5">
-              <Card />
-            </div>
-            <div className="g-col-sm-12 col-md-3 mt-5">
-              <Card />
+          <div className="card">
+            <div className="row d-flex text-center justify-content-center">
+              <div className="col-sm-12 col-md-3 mt-5 gap-3">
+                <Card />
+              </div>
+              <div className="col-sm-12 col-md-3 mt-5 ">
+                <Card />
+              </div>
+              <div className="col-sm-12 col-md-3 mt-5">
+                <Card />
+              </div>
+              <div className="col-sm-12 col-md-3 mt-5">
+                <Card />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div classNameName=" container-fluid   ">
+      <div className="bottom">
+        {" "}
         <Footer />
       </div>
     </div>

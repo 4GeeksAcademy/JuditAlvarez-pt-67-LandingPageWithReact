@@ -1,7 +1,7 @@
 import React from "react";
 const Card = () => {
   return (
-    <div className="card" style={{ width: "auto", height: "30rem" }}>
+    <div className="card" style={{ width: "auto", height: "auto" }}>
       <img
         src="https://wallpapercave.com/wp/wp5542815.jpg"
         className="card-img-top"
@@ -14,10 +14,8 @@ const Card = () => {
           bulk of the card's content.
         </p>
         <div class="overflow-hidden">
-        <button class="btn btn-primary">Find out More!</button>
-      </div>
-          
-      
+          <button class="btn btn-primary">Find out More!</button>
+        </div>
       </div>
     </div>
   );
